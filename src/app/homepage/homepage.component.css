@@ -1,0 +1,32 @@
+.v-align{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.v-align.spread{
+  justify-content: space-between;
+}
+button.btn-success{
+  width: 150px;
+  height: 35px;
+}
+i.fa{
+  margin-right: 15px;
+}
+i.fa-eye{
+  margin-left: 15px;
+  cursor: pointer;
+}
+.form-group label{
+  width: 30%;
+}
+.form-group > div{
+  width: 70%;
+}
+.form-group input{
+  width: 100%;
+}
+.right{
+  display: block;
+  margin-left: auto;
+}
